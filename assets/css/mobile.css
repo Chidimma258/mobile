@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    overflow-x: hidden;
+    background-color: rgb(241, 243, 243);
+}
+
+.mini-img{
+    background:rgb(11, 135, 140);
+    border-radius: 5px;
+}
+
+.footer{
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+}
+
+.text-skip{
+    text-decoration: none;
+    color: gray;
+    font-weight: 500;
+    font-family: sans-serif;
+}
+
+.mini-tag{
+    border-radius: 1rem;
+    position: relative;
+    bottom: 21px;
+    cursor: pointer;
+}
+.btn-ctrl{
+    text-align: -webkit-center;
+}
+.img-card{
+    box-shadow: rgb(225, 255, 255);
+    border-radius: 9px;
+    border:white 3px solid;
+    width: 80px;
+    cursor: pointer;
+}
+.row-a{
+    margin-left: 5px;
+}
+
+.dash-fill{
+    right: 0;
+    position: fixed;
+    align-self: normal;
+}
+
+.chevron-class{
+    position: fixed;
+}
+
+.girls-img{
+    border: white 10px solid;
+    border-radius: 10px;
+    background: rgb(11, 135, 140);
+}
+.info-btn{
+    border-radius: 12px;
+}
+.info-secondary{
+    border-radius: 12px;
+    background: rgb(110, 131, 117);
+}
+
+.fill-color{
+    fill:  rgb(5 114 118);
+}
+.activity-bar{
+    background: rgb(93 117 122);
+    margin-bottom: 4rem!important;
+}
+.activity-bar1{
+    background: rgb(93 117 122);
+   
+}
+
+.form-ctrl{
+    border-radius: 10px;
+    margin-bottom: 1rem!important;
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    width: 94%!important;
+}
+.activity-bar2{
+    fill:rgb(11, 135, 140) ;
+}
+.time-im{
+    display: flex;
+    font: small-caption;
+    align-self: center;
+    position: absolute;
+    bottom: 16px;
+    border-radius: 7px;
+}
+.btn-events{
+    border-radius: 5px;
+}
+.bg-radius{
+    border-radius: 1rem;
+}
+@media(max-width: 912px){
+   
+   .form-ctl{
+       width: 84%!important;
+   }
+}
